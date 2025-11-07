@@ -1,0 +1,35 @@
+baseURL: https://ushitoramomo.github.io/
+languageCode: en-us
+title: Let's うしうし Life
+theme: PaperMod
+mainsections: ["posts"]
+enableEmoji: true
+
+menu:
+  main:
+    - name: "About Me"
+      url: /aboutme
+      weight: 1
+    - name: "Posts"
+      url: /posts/
+      weight: 3
+
+params:
+  env: production
+  description: "Writing about tech articles and daily events."
+  author: "ushitoramomo"
+  defaultTheme: "auto"
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  homeInfoParams:
+    Title: "*Heya!*"
+    Content: |
+      hi
+  socialIcons:
+    - name: github
+      url: "https://github.com/ushitoramomo"
